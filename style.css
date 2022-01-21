@@ -1,15 +1,44 @@
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   margin: 0;
-  min-height: 100vhl;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  background-color: #faebd7;
+}
+
+.site-title {
+  font-size: 24px;
+  color: #1f2937;
 }
 
 ul {
+  display: flex;
   list-style: none;
+  gap: 25px;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #faebd7;
+}
+
+.cover-img {
+  width: 500px;
+  height: auto;
+}
+
+.tech-img {
+  width: 100px;
+  height: auto;
 }
