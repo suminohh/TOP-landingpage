@@ -94,6 +94,14 @@ ul {
   font-weight: 600;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
 #ash,
 .quote {
   background-color: white;
@@ -197,3 +205,13 @@ ul {
   border: none;
   font-family: "Inter", "Encode Sans";
   font-weight: 400;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 0.95em;
+}
