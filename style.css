@@ -13,10 +13,11 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #faebd7;
+  padding: 1em 320px;
 }
 
 .site-title {
-  font-size: 24px;
+  font-size: 18px;
   color: #1f2937;
 }
 
@@ -28,9 +29,11 @@ ul {
 
 .cover {
   display: flex;
-  justify-content: center;
-  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: #faebd7;
+  padding: 1em 320px;
 }
 
 .cover-img {
@@ -38,7 +41,80 @@ ul {
   height: auto;
 }
 
+.recommended {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 250px;
+}
+
+.recommended-by {
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#ash,
+.quote {
+  background-color: white;
+}
+
+#ben {
+  background-color: #d7e6fa;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 200px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.tech {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#octaine {
+  background-color: white;
+}
+
 .tech-img {
   width: 100px;
-  height: auto;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.recommended-by {
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 250px;
+  justify-content: center;
+}
+
+.geffs-said {
+  padding: 10px 200px 10px;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.geffs {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 40px 0px 10px;
+}
+
+.cta {
+  background-color: #dad7fa;
 }
