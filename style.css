@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Epilogue", "Encode Sans", sans-serif;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -18,13 +18,34 @@ body {
 
 .site-title {
   font-size: 18px;
-  color: #1f2937;
+  color: #faebd7;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.highlight {
+  padding: 3px;
+  background-color: #2f4f4f;
+}
+
+.sign-up {
+  margin-top: 35px;
+  padding: 10px 30px 11px;
+  font-size: 18px;
+  border-radius: 9px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-family: "Inter", "Encode Sans";
+  font-weight: 400;
 }
 
 ul {
   display: flex;
   list-style: none;
-  gap: 25px;
+  font-weight: 300;
+  gap: 45px;
 }
 
 .cover {
@@ -33,7 +54,27 @@ ul {
   justify-content: space-between;
   align-items: center;
   background-color: #faebd7;
-  padding: 1em 320px;
+  padding: 0.75em 320px;
+}
+
+.cover-copy {
+  margin-bottom: 50px;
+}
+
+.headliner {
+  font-size: 42px;
+  font-weight: 700;
+  color: #2f4f4f;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.cover-subliner {
+  font-size: 24px;
+  font-family: "Inter", "Encode Sans";
+  font-weight: 300;
+  margin: 0;
+  padding: 10px 0px;
 }
 
 .cover-img {
@@ -44,7 +85,7 @@ ul {
 .recommended {
   display: flex;
   flex-direction: column;
-  padding: 3em 250px;
+  padding: 4em 250px;
 }
 
 .recommended-by {
@@ -67,11 +108,12 @@ ul {
   flex-wrap: wrap;
   padding: 0 200px;
   justify-content: center;
-  gap: 40px;
+  gap: 10px 60px;
 }
 
 .tech {
-  padding: 15px;
+  margin-top: 30px;
+  padding: 10px 0px 10px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -91,6 +133,13 @@ ul {
 
 .recommended-by {
   text-align: center;
+}
+
+.function {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  padding-bottom: 5px;
 }
 
 .quote {
@@ -116,5 +165,35 @@ ul {
 }
 
 .cta {
-  background-color: #dad7fa;
+  background-color: #faebd7;
+  display: flex;
+  justify-content: center;
+  padding: 4em 0px;
 }
+
+.cta-copy {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  align-items: center;
+  /*background: black;
+  border-radius: 10px;
+  padding: 3em 350px;*/
+}
+
+.learn {
+  padding: 10px 30px 11px;
+  font-size: 18px;
+  border-radius: 9px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-family: "Inter", "Encode Sans";
+  font-weight: 400;
